@@ -1,8 +1,5 @@
-# fit3077_assignments
-
-## Submission notes
-- All our application source code can be found in the Assignment folder.
-- The class diagram, design rationale and demo video are in the Design_Documents folder.
+# Online Tutor Matching System
+This project is developed for the assignments of FIT3077 Software Engineering: Architecture and Design in 2021, S1.
 
 ## Set up
 1. Clone repo
