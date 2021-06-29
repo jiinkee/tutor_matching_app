@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.monash.fit3077">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineTutorMatchingSystem">
+        <activity
+            android:name=".view.LoginActivity"
+            android:label="Online Tutor Matching System">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.HomePageActivity"
+            android:label="Home Page"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".view.ContractListActivity"
+            android:label="My Contracts"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.HomePageActivity" />
+
+        <activity
+            android:name=".view.PendingContractDetailsActivity"
+            android:label="My Contract"
+            android:parentActivityName=".view.ContractListActivity" />
+
+        <activity
+            android:name=".view.ValidContractDetailsActivity"
+            android:label="My Contract"
+            android:parentActivityName=".view.ContractListActivity" />
+
+        <activity
+            android:name=".view.RenewableContractDetailsActivity"
+            android:label="My Contract"
+            android:parentActivityName=".view.ContractListActivity"
+            android:launchMode="singleTop"/>
+
+        <activity android:name=".view.ContractRenewalActivity"
+            android:label="Contract Renewal"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.RenewableContractDetailsActivity"/>
+
+        <activity android:name=".view.BidListActivity"
+            android:label="Bids"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.HomePageActivity" />
+
+        <activity
+            android:name=".view.BidderViewBidDetailsActivity"
+            android:label="Bid Request Details"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.BidListActivity" />
+
+        <activity
+            android:name=".view.BidderViewSubscribedBidDetailsActivity"
+            android:label="Bid Request Details"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.BidListActivity" />
+
+        <activity
+            android:name=".view.BidInitiatorViewBidDetailsActivity"
+            android:label="Bid Request Details"
+            android:launchMode="singleTop"
+            android:parentActivityName=".view.BidListActivity" />
+
+        <activity
+            android:name=".view.ChatActivity"
+            android:label="My Private Chat" />
+
+        <activity
+            android:name=".view.BidRequestCreateFormActivity"
+            android:label="Create Bid Request Form"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".view.HomePageActivity" />
+
+        <activity
+            android:name=".view.BidOfferCreateFormActivity"
+            android:label="Create Bid Offer Form"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".view.BidderViewBidDetailsActivity" />
+
+        <activity
+            android:name=".view.BidOfferEditFormActivity"
+            android:label="Edit Bid Offer Form"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".view.BidderViewBidDetailsActivity" />
+
+        <activity
+            android:name=".view.ContractRenewalFormActivity"
+            android:label="Contract Renewal Form"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".view.ContractListActivity"/>
+
+    </application>
+
+</manifest>

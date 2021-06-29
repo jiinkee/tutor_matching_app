@@ -1,0 +1,122 @@
+<resources>
+<!--    Login & Home Page-->
+    <string name="app_name">OnlineTutorMatchingSystem</string>
+    <string name="login_title">Login</string>
+    <string name="login_description">Hi there! Nice to see you again.</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="view_my_bids">View My Bids</string>
+    <string name="create_new_bids">Create New Bids</string>
+    <string name="view_my_contracts">View My Contracts</string>
+    <string name="view_all_bids">View All Bids</string>
+
+<!--    Contracts-->
+    <string name="contract_pending">Pending</string>
+    <string name="contract_valid">Valid</string>
+    <string name="contract_renewable">Renewable</string>
+    <string name="contract_start_date">Contract Start Date: </string>
+    <string name="contract_end_date">Contract End Date:</string>
+    <string name="contract_name">Name:</string>
+    <string name="contract_rate_in_myr">Rate (in MYR):</string>
+    <string name="contract_topic">Topic:</string>
+    <string name="contract_subject">Subject:</string>
+    <string name="contract_qualification">Qualification:</string>
+    <string name="contract_competency_level">Competency Level:</string>
+    <string name="contract_first_party_student">First Party (Student):</string>
+    <string name="contract_second_party_tutor">Second Party (Tutor):</string>
+    <string name="contract_lesson_details">Lesson Details:</string>
+    <string name="contract_terms">Contract Terms:</string>
+    <string name="tutor_id">Id:</string>
+
+<!--    Bids-->
+    <string name="bid_open">Open</string>
+    <string name="bid_close">Close</string>
+    <string name="bid_closed_down">Closed Down</string>
+    <string name="bid_subscribed">Subscribed</string>
+    <string name="bid_type">Bid Type:</string>
+    <string name="bid_subject">Subject:</string>
+    <string name="bid_topic">Topic:</string>
+    <string name="bid_tutor_competency_lvl">Tutor Competency Level:</string>
+    <string name="bid_day_time"><![CDATA[Day & Time:]]></string>
+    <string name="bid_num_of_sessions_per_week">Num. of Sessions per Week:</string>
+    <string name="bid_rate_in_myr">Rate (in MYR)</string>
+    <string name="bid_free_lesson">Free Lesson?</string>
+    <string name="bid_start_date">Start Date:</string>
+    <string name="bid_end_date">End Date:</string>
+    <string name="bid_duration">Duration (months):</string>
+
+<!--    Bid offer-->
+    <string name="bid_offer_tutor_qualification">Tutor Competency/Qualifications:</string>
+    <string name="bid_offer_day_time"><![CDATA[Day & Time:]]></string>
+    <string name="bid_offer_num_of_sessions_per_week">Num. of Sessions per Week:</string>
+    <string name="bid_offer_rate_in_myr">Rate (in MYR)</string>
+    <string name="bid_offer_free_lesson">Free Lesson?</string>
+    <string name="bid_offer_start_date">Start Date:</string>
+    <string name="bid_offer_end_date">End Date:</string>
+
+<!--    Button labels-->
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="select">Select</string>
+    <string name="chat">Chat</string>
+    <string name="buy_out">Buy Out</string>
+    <string name="make_offer">Make Offer</string>
+    <string name="edit_offer">Edit Offer</string>
+    <string name="sign">Sign</string>
+    <string name="renew">Renew</string>
+
+<!--    logo-->
+    <string name="bid_offer_logo">bid_offer_logo</string>
+    <string name="contract_logo">contract_logo</string>
+    <string name="no_records">No records.</string>
+
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+
+<!--    contract renewal radio button-->
+    <string name="radio_choose_tutor">Choose Tutor:</string>
+    <string name="radio_same_tutor">Same Tutor</string>
+    <string name="radio_different_tutor">Different Tutor</string>
+    <string name="radio_choose_contract_terms">Choose Contract Terms:</string>
+    <string name="contract_renewal_proceed">Proceed</string>
+    <string name="radio_reuse_contract_terms">Reuse Contract Terms</string>
+    <string name="radio_modify_contract_terms">Modify Contract Terms</string>
+
+
+    <!--    test RecyclerView-->
+    <string-array name="test_student">
+        <item>Student 1</item>
+        <item>Student 2</item>
+        <item>Student 3</item>
+        <item>Student 4</item>
+    </string-array>
+    <string-array name="test_date">
+        <item>31 Dec 2020</item>
+        <item>31 Dec 2020</item>
+        <item>31 Dec 2020</item>
+        <item>31 Dec 2020</item>
+    </string-array>
+    <string-array name="test_bid_type">
+        <item>OPEN</item>
+        <item>CLOSE</item>
+        <item>CLOSED</item>
+        <item>OPEN</item>
+    </string-array>
+    <string-array name="test_bid_day">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+    </string-array>
+    <string-array name="test_bid_start_time">
+        <item>11:00AM</item>
+        <item>12:00PM</item>
+        <item>3:00PM</item>
+    </string-array>
+    <string-array name="test_bid_end_time">
+        <item>12:00PM</item>
+        <item>3:00PM</item>
+        <item>5:30PM</item>
+    </string-array>
+</resources>
