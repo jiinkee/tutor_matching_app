@@ -12,5 +12,5 @@ To install and run app in your device, please refer to [this guide](https://deve
 
 ## Developers
 Team SAD
-* Kee Pei Jiin (29274389)
-* Tan Wei Li (29276020)
+* Kee Pei Jiin
+* Tan Wei Li
